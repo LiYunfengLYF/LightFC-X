@@ -3,6 +3,7 @@
 ## Notice:
 - Here rgbter-light is the initial name of our tracker, and rgbt-light is the initial name of our project
 
+Download Model and results: https://drive.google.com/file/d/1rmhq42s_2ZaWZuuyihuJCUMBHM7anStG/view?usp=drive_link
 
 ## Environment Installation
 
