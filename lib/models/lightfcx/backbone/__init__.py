@@ -1,2 +1,4 @@
 from .mobilenetv2_rgbt_lightfc import MobileNetV2_add2cat
 from .tinyvit_rgbt_lightfc import tiny_vit_5m_224
+from .mobilevit import mobile_vit_x_small
+from .mobileformer import mobile_former_26m
