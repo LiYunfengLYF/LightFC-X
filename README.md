@@ -3,7 +3,7 @@
 ## Notice:
 - Here rgbter-light is the initial name of our tracker, and rgbt-light is the initial name of our project
 
-Download Model and results: https://drive.google.com/file/d/1rmhq42s_2ZaWZuuyihuJCUMBHM7anStG/view?usp=drive_link
+
 
 ## Environment Installation
 
@@ -17,6 +17,27 @@ You can also modify paths by editing these two files
 lib/test/evaluation/local.py  # paths about testing
 ```
 env_num is used to distinguish different development devices, we recommend setting env_num to only 0 here
+
+
+
+
+|  |  |  | RGBD | RGBD | RGBD | RGBT | RGBT | RGBT | RGBE | RGBE |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  | Params | FLOPs | F | Fr | Re | PR | NPR | SR | PR | SR |
+| LightFC-X-xxs <br/>(MobileFormer) | 3.83M | 0.79G | 0.408 | 0.407 | 0.410  | 54.8 | 51.5 | 44.7 | 64.4 | 49.8 |
+| LightFC-X-xs<br/> (MobileViT) | 4.19M | 3.03G | 0.469 | 0.472 | 0.465 | 60.9 | 57.1 | 48.4 | 65.5 | 51.0  |
+| LightFC-X | 6.68M | 5.40G | 0.500  | 0.537 | 0.468 | 63.8 | 59.9 | 50.1 | 68.7 | 52.9 |
+
+RGBD is DepTrack. RGBT is LasHeR. RGBE is VisEvent.
+
+Download LightFC-X-xs Model: https://drive.google.com/drive/folders/1EKxYogu-3WmTMTBASR6BtU2RQN90WhQp?usp=sharing
+
+Download LightFC-X-xxs Model: https://drive.google.com/drive/folders/1xevE9iynAczPhkDs-VzqNgcGhbWEVQq5?usp=sharing
+
+Download LightFC-X Model and results: https://drive.google.com/file/d/1rmhq42s_2ZaWZuuyihuJCUMBHM7anStG/view?usp=drive_link
+
+
+
 
 ## Data Preparation
 
